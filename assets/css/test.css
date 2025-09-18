@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #0f1b4c;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Fz Pippins", sans-serif;
+    font-size: 1.6rem;
+}
+
+.header {
+    background-color: aqua;
+    height: 100vh;
+}
+.content {
+    width: 1110px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+.header .navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.header .navbar ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+.header .navbar ul li a {
+    padding: 8px 14px;
+}
+
+.header .navbar .button {
+    margin-left: auto;
+}
+
+.header .navbar .button .register {
+    background-color: var(--primary-color);
+    color: white;
+    display: inline-block;
+    padding: 16px 14px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+
+.client {
+    margin-top: 60px;
+}
+.client .headerClient {
+    display: flex;
+}
+
+.client .client-content p {
+    margin-top: 10px;
+}
+.client .review {
+    margin-left: auto;
+}
+
+.client .review .star {
+    color: rgb(231, 231, 100);
+    margin-left: 109px;
+}
+.client .review p {
+    margin-top: 19px;
+}
+
+.client .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.client .logos img {
+    width: auto;
+    height: 100%;
+    margin: 0 20px;
+}
