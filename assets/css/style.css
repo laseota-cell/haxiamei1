@@ -11,7 +11,6 @@ body {
     font-size: 1.6rem;
     font-family: "Fz Poppins";
 }
-
 /* common */
 .content {
     width: 1110px;
@@ -42,8 +41,16 @@ a {
     overflow: hidden;
 }
 /* HEADER */
-
-.header {
+.fixed-header {
+    background-color: #cfdef3;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 9999;
+}
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
     background-color: #cfdef3;
     height: 100vh;
     position: relative;
@@ -52,7 +59,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -557,7 +565,17 @@ a {
     margin-top: 40px;
 }
 .footer .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 16px;
+    width: 28px;
+    height: 28px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+.footer .social-link:hover {
+    background-color: #e6e7ec;
 }
 .footer .social-link:first-child {
     margin-left: 0;
